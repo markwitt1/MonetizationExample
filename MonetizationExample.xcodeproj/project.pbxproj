@@ -11,6 +11,9 @@
 		4DEDBB8E2B35ED310094EF6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDBB8D2B35ED310094EF6A /* ContentView.swift */; };
 		4DEDBB902B35ED330094EF6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEDBB8F2B35ED330094EF6A /* Assets.xcassets */; };
 		4DEDBB932B35ED330094EF6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DEDBB922B35ED330094EF6A /* Preview Assets.xcassets */; };
+		4DEDBB9B2B35F5E10094EF6A /* verifyPaid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDBB9A2B35F5E10094EF6A /* verifyPaid.swift */; };
+		4DEDBB9D2B35F7B30094EF6A /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDBB9C2B35F7B30094EF6A /* PaymentView.swift */; };
+		4DEDBB9F2B35FD610094EF6A /* getHashedDeviceID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDBB9E2B35FD610094EF6A /* getHashedDeviceID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		4DEDBB8F2B35ED330094EF6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DEDBB922B35ED330094EF6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DEDBB942B35ED330094EF6A /* MonetizationExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MonetizationExample.entitlements; sourceTree = "<group>"; };
+		4DEDBB9A2B35F5E10094EF6A /* verifyPaid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyPaid.swift; sourceTree = "<group>"; };
+		4DEDBB9C2B35F7B30094EF6A /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		4DEDBB9E2B35FD610094EF6A /* getHashedDeviceID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getHashedDeviceID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +58,14 @@
 		4DEDBB8A2B35ED310094EF6A /* MonetizationExample */ = {
 			isa = PBXGroup;
 			children = (
+				4DEDBB9C2B35F7B30094EF6A /* PaymentView.swift */,
 				4DEDBB8B2B35ED310094EF6A /* MonetizationExampleApp.swift */,
 				4DEDBB8D2B35ED310094EF6A /* ContentView.swift */,
 				4DEDBB8F2B35ED330094EF6A /* Assets.xcassets */,
 				4DEDBB942B35ED330094EF6A /* MonetizationExample.entitlements */,
 				4DEDBB912B35ED330094EF6A /* Preview Content */,
+				4DEDBB9A2B35F5E10094EF6A /* verifyPaid.swift */,
+				4DEDBB9E2B35FD610094EF6A /* getHashedDeviceID.swift */,
 			);
 			path = MonetizationExample;
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DEDBB9F2B35FD610094EF6A /* getHashedDeviceID.swift in Sources */,
 				4DEDBB8E2B35ED310094EF6A /* ContentView.swift in Sources */,
+				4DEDBB9D2B35F7B30094EF6A /* PaymentView.swift in Sources */,
+				4DEDBB9B2B35F5E10094EF6A /* verifyPaid.swift in Sources */,
 				4DEDBB8C2B35ED310094EF6A /* MonetizationExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

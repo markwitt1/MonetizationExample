@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct MonetizationExampleApp: App {
+    
+    @State var isPaymentViewPresented: Bool = false
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .task {
+                    isPaymentViewPresented = !(await verifyPaid())
+                }
+                .sheet(isPresented: $isPaymentViewPresented, content: {
+                    PaymentView(onPaymentSuccess: {
+                        isPaymentViewPresented = false
+                    })
+                })
         }
     }
 }
